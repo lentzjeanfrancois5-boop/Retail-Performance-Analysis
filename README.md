@@ -1,6 +1,8 @@
 # 📊 Retail Performance & Returns Analysis (YZG Consulting)
 
-> **[Click Here to View the Interactive Dashboard on Tableau Public](https://public.tableau.com/your-link-here)** *(Note: Replace the link above with your actual Tableau Public URL)*
+> **[Click Here to View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/lentz.francois/viz/RetailPerformanceReturnsAnalysisYZGConsulting/Dashboard1)**
+
+> **
 
 ## 🏢 Business Overview
 As a Data Analyst for YZG Consulting, I was tasked with analyzing retail order data to optimize scheduling and profitability. The client needed to understand which days of the week drive the most volume and where "profit leaks" (returns and unprofitable categories) are occurring.
