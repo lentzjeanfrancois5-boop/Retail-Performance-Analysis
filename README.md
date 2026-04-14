@@ -4,35 +4,61 @@
 
 > ![Retail Performance Dashboard Preview](retailperformanceanalysis.png)
 
+---
+
 ## 🏢 Business Overview
-As a Data Analyst for YZG Consulting, I was tasked with analyzing retail order data to optimize scheduling and profitability. The client needed to understand which days of the week drive the most volume and where "profit leaks" (returns and unprofitable categories) are occurring.
+Acted as a Data Analyst for YZG Consulting to analyze retail order data and identify inefficiencies impacting profitability.
+
+The objective was to evaluate **order volume trends, return behavior, and product performance** to uncover revenue leakage and support data-driven decisions across scheduling, pricing, and inventory strategy.
 
 ---
 
 ## 🛠️ Technical Toolkit
-* **Software:** Tableau Desktop
-* **Advanced Features:** * **Dynamic Parameters:** Created a "Metric Switcher" using CASE statements to toggle between Sales, Profit, Orders, and Profit Margin.
-    * **Container Layouts:** Used a rigid hierarchy of Horizontal and Vertical containers to maintain a pixel-perfect 1024x768 layout.
-    * **Viz-in-Tooltip:** Integrated a weekday breakdown chart inside the map tooltips for geographic deep-dives.
-    * **Action Filtering:** Implemented cross-sheet filtering to ensure a cohesive user experience.
+**Software:** Tableau Desktop  
+
+**Key Features:**
+- **Dynamic Parameter (Metric Switcher):** Enabled real-time toggling between Sales, Profit, Orders, and Profit Margin using CASE logic  
+- **Dashboard Layout Optimization:** Used container-based layouts for consistent structure and usability  
+- **Viz-in-Tooltip:** Embedded weekday performance breakdowns within map tooltips for deeper geographic insights  
+- **Cross-Filtering:** Implemented interactive filters for seamless user exploration  
 
 ---
 
-## 📈 Forensic Insights Found
-* **The Friday Volume Myth:** While Friday accounts for **17% of total orders**, it often carries a higher return rate for specific sub-categories compared to mid-week.
-* **Continuous Deficit:** Identified **Tables** as a sub-category that remains unprofitable every single day of the week, suggesting a need for a shipping or pricing strategy audit.
-* **Return Hotspots:** **California** was identified as the state with the highest return volume, specifically peaking on **Thursdays**.
+## 📈 Key Insights
+- **Friday Volume vs Profitability Trade-Off:**  
+  Friday accounts for **17% of total order volume**, but exhibits higher return rates in specific sub-categories, reducing net profitability  
+
+- **Consistent Loss Driver:**  
+  The **Tables** sub-category remains unprofitable across all days, indicating structural issues in pricing or logistics  
+
+- **Return Hotspots:**  
+  **California** has the highest return volume, with a peak on **Thursdays**, suggesting localized operational inefficiencies  
+
+---
+
+## 📊 Business Impact
+- Identified key sources of profit leakage through return analysis  
+- Highlighted underperforming product categories requiring strategic review  
+- Provided insights to improve **pricing strategy, inventory allocation, and return reduction initiatives**  
 
 ---
 
 ## 📂 Project Structure
-* `Tableau_Containers.twbx`: The packaged Tableau workbook containing the final dashboard and data extract.
-* `Dashboard_Preview.png`: A high-resolution screenshot of the final UI.
-* `README.md`: Documentation of the business case and technical methodology.
+- `dashboard/retail_dashboard.twbx` → Tableau dashboard file  
+- `images/` → Dashboard previews  
+- `sql/` → Data cleaning and analysis queries  
+- `docs/` → Methodology and approach  
+- `reports/` → Final insights and recommendations  
 
 ---
 
 ## 💡 How to Use
-1. Use the **Metric Parameter** on the right to switch the entire dashboard between Sales, Profit, and Orders.
-2. Filter by **Category** or **Return Status** to see how returns impact net profit.
-3. Hover over any **State** on the map to see a pop-up chart of that specific state's weekly performance.
+1. Use the **Metric Parameter** to switch between Sales, Profit, Orders, and Profit Margin  
+2. Filter by **Category** or **Return Status** to analyze profitability impact  
+3. Hover over map regions to view **weekday performance breakdowns**  
+
+---
+
+## 👤 Author
+**Lentz Jean Francois**  
+Marketing / Data Analyst
