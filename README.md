@@ -7,32 +7,21 @@
 ---
 
 ## 🏢 Business Overview
-Acted as a Data Analyst for YZG Consulting to analyze retail order data and identify inefficiencies impacting profitability.
+Analyzed retail order data to identify profit leakage, return patterns, and underperforming products impacting overall profitability.
 
-The objective was to evaluate **order volume trends, return behavior, and product performance** to uncover revenue leakage and support data-driven decisions across scheduling, pricing, and inventory strategy.
-
----
-
-## 🛠️ Technical Toolkit
-**Software:** Tableau Desktop  
-
-**Key Features:**
-- **Dynamic Parameter (Metric Switcher):** Enabled real-time toggling between Sales, Profit, Orders, and Profit Margin using CASE logic  
-- **Dashboard Layout Optimization:** Used container-based layouts for consistent structure and usability  
-- **Viz-in-Tooltip:** Embedded weekday performance breakdowns within map tooltips for deeper geographic insights  
-- **Cross-Filtering:** Implemented interactive filters for seamless user exploration  
+The objective was to evaluate order volume trends, return behavior, and product performance to support data-driven decisions in pricing, inventory, and operational strategy.
 
 ---
 
 ## 📈 Key Insights
 - **Friday Volume vs Profitability Trade-Off:**  
-  Friday accounts for **17% of total order volume**, but exhibits higher return rates in specific sub-categories, reducing net profitability  
+  Friday drives **17% of total order volume**, but higher return rates in key sub-categories reduce net profit
 
 - **Consistent Loss Driver:**  
-  The **Tables** sub-category remains unprofitable across all days, indicating structural issues in pricing or logistics  
+  The **Tables** sub-category remains unprofitable across all days, indicating structural pricing or logistics issues
 
 - **Return Hotspots:**  
-  **California** has the highest return volume, with a peak on **Thursdays**, suggesting localized operational inefficiencies  
+  **California** shows has the highest return volume, peaking on **Thursdays**, suggesting localized operational inefficiencies  
 
 ---
 
@@ -42,6 +31,14 @@ The objective was to evaluate **order volume trends, return behavior, and produc
 - Provided insights to improve **pricing strategy, inventory allocation, and return reduction initiatives**  
 
 ---
+🛠️ Tools & Techniques
+Software: Tableau Desktop
+Key Features:
+Metric Parameter (Dynamic Switching): Toggle between Sales, Profit, Orders, and Profit Margin
+Cross-Filtering: Enables interactive exploration across dimensions
+Viz-in-Tooltip: Displays weekday performance within geographic views
+Dashboard Layout Optimization: Structured for usability and consistency
+___
 
 ## 📂 Project Structure
 - `dashboard/retail_dashboard.twbx` → Tableau dashboard file  
